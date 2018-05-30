@@ -21,3 +21,10 @@ Follwer Replica : All replicas which are not leader replica is said to be follwe
 --> in order keep himself (follwer replica) update with the leader,follwer always connect for every 500 miliseconds 
 				----   replica.fetch.wait.max.ms -----
 --> in every fetch request ,follwer sends offset number that he want to fetch from the leader.
+--> the rule is follwer replica could not request a random offset fom the leader.
+     example in order to request offset 4 ,the follwer must offset number 3
+--> if any follwer who is not requesting a new message from the leader within 10 seconds (replica.lag.time.max.ms) considered as out of sync.,
+--> replicas who are continously in sync with leader are called as in sync replcas (ISR)
+
+
+
