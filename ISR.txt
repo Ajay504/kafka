@@ -1,0 +1,8 @@
+follwer replicas who are continuosly in sync with leader are called as In sync replicas (ISR)
+
+
+
+"isr" is the set of "in-sync" replicas. This is the subset of the replicas list that is currently alive and caught-up to the leader.
+
+
+

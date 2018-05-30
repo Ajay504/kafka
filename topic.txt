@@ -1,0 +1,5 @@
+A topic is a category/feed name to which messages are stored and published.
+All kafka messages are orginized into topics.
+If you wish to send a message you send it to a specfic topic.
+If you wish to read a message you read it from a specfic topic.
+

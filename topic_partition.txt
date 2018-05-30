@@ -1,0 +1,3 @@
+
+Topics are divided into number of partitions,which contain messages in an unchnageble sequence .
+
