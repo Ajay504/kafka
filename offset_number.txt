@@ -1,0 +1,2 @@
+Offset : each partition in kafka is an ordered,immutable sequence of record that is continusoly appended to the structure.
+	The records in the partition are each assigned a sequnetial id number called offset,that uniquely identifies each record with in the partition
