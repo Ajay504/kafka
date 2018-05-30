@@ -1,0 +1,6 @@
+connect api allows implemeting connectords that continually pull from some source data system into kafka
+			or		
+       kafka into some sink data system
+
+
+

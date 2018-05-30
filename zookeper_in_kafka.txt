@@ -1,0 +1,11 @@
+Zookeeper provides nultiple features for distributed applications like distributed configuration managment,self election,co-ordination locks.
+
+kafka uses zookeeper to store metadata about the kakfa's cluster as consumer client details.
+
+kafka uses zookeeper for 
+1.electing a controller
+2.cluster membership
+3.topic config
+4.qoutas
+5.acls
+

@@ -1,0 +1,5 @@
+QueueFullException naturally happens when the manufacturer tries to propel communications at a speed which Broker can’t grip. Consumers need to insert sufficient brokers to collectively grip the amplified load since the Producer doesn’t block.
+
+1. the producer pushes data faster than the server can handle
+2. the background thread that sends data in async producer is dead
+
